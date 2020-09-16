@@ -7,10 +7,13 @@ import com.game_survey_research.game_sr.entities.PersonalData;
 import com.game_survey_research.game_sr.repositories.GameRepository;
 import com.game_survey_research.game_sr.repositories.PersonalDataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.Instant;
+import java.util.List;
 
 /**
  * RecordService
@@ -41,5 +44,11 @@ public class PersonalDataService {
         final PersonalData data = personalDataRepository.save(personalData);
 
         return new RecordDTO(data);
+    }
+
+    @Transactional(readOnly = true)
+    public Page<RecordDTO> findByMoment(Instant minDate, Instant maxDate, PageRequest pageRequest) {
+        return personalDataRepository.findByMoments(minDate, maxDate, pageRequest)
+                .map(personalData -> new RecordDTO(personalData));
     }
 }
