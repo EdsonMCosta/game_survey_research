@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38f0f9c3-1b44-4fd2-968f-e586d2d7008e" name="Default Changelist" comment="" />
+    <list default="true" id="38f0f9c3-1b44-4fd2-968f-e586d2d7008e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/game_survey_research.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/game_survey_research/game_sr/controllers/GameResourceControllers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/game_survey_research/game_sr/controllers/implementations/GameResourceControllersImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/game_survey_research/game_sr/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/game_survey_research/game_sr/entities/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,10 +76,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="113" width="424" height="567" key="FileChooserDialogImpl" timestamp="1600208917485">
+    <state x="378" y="198" width="600" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600293870681">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="113" width="424" height="567" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1600208917485" />
+    <state x="378" y="198" width="600" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.741@0.27.1366.741" timestamp="1600293870681" />
+    <state x="466" y="113" width="424" height="567" key="FileChooserDialogImpl" timestamp="1600293917281">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="113" width="424" height="567" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1600293917281" />
     <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1600208890816">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

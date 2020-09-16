@@ -1,5 +1,6 @@
 package com.game_survey_research.game_sr.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.game_survey_research.game_sr.entities.enums.Platform;
 
 import javax.persistence.*;
